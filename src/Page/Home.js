@@ -21,7 +21,7 @@ const CreateAdminUser = () => {
 
         try {
 
-            let res = await axios.get("https://dzap-f4vc.onrender.com/getList");
+            let res = await axios.get("https://dzap-f4vc.onrender.com");
 
             if (res?.status == 200) {
                 console.log(res?.data);
