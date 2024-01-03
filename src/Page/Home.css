@@ -62,3 +62,11 @@
     width: 150px;
     /* background-color: red; */
 }
+
+.calculating{
+    color:red;
+}
+
+.loading{
+    color:red;
+}
